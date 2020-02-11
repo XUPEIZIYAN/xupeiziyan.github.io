@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://xupeiziyan.github.io/</id>
     <title>寻常.籽言</title>
-    <updated>2020-02-11T08:16:31.685Z</updated>
+    <updated>2020-02-11T08:20:25.552Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://xupeiziyan.github.io/"/>
     <link rel="self" href="https://xupeiziyan.github.io/atom.xml"/>
@@ -16,7 +16,11 @@
         <link href="https://xupeiziyan.github.io/post/du-shu-bi-ji-or-lesslesswan-li-shi-wu-nian-greatergreater">
         </link>
         <updated>2020-02-11T08:09:17.000Z</updated>
-        <content type="html"><![CDATA[<pre><code>   第一次看电视剧《人民的名义》，里面反复提到《万历十五年》，就很好奇这到底是怎样一本奇书。平时能看书的时间不多，就在上下班地铁上每次翻几页，两个月也就看完了。我从前看书不看序，觉得太啰嗦，喜欢直接切入正文。但从《人类群星闪耀时》一书开始，才发现序是很重要的一部分，作者的关键思想和主要内容都会在序中有所交代，因而也常常有让人眼前一亮的精辟论述。
+        <summary type="html"><![CDATA[<p><strong>中国两千年来，以道德代替法制，至明代而极，这就是一切问题的症结……</strong></p>
+]]></summary>
+        <content type="html"><![CDATA[<p><strong>中国两千年来，以道德代替法制，至明代而极，这就是一切问题的症结……</strong></p>
+<!-- more -->
+<pre><code>   第一次看电视剧《人民的名义》，里面反复提到《万历十五年》，就很好奇这到底是怎样一本奇书。平时能看书的时间不多，就在上下班地铁上每次翻几页，两个月也就看完了。我从前看书不看序，觉得太啰嗦，喜欢直接切入正文。但从《人类群星闪耀时》一书开始，才发现序是很重要的一部分，作者的关键思想和主要内容都会在序中有所交代，因而也常常有让人眼前一亮的精辟论述。
 
    《万历十五年》的作者黄仁宇在自序中就提出：“据此而作进一步探索，可知“民穷”的根本原因不在国家的赋税过重，而端在法律的腐败和政府的低能。国家的税率低，受惠者并非农民，只是鼓励了大小地主加重剥削以及官僚乡里额外加征。”“这种维护落后的农业经济、不愿发展商业及金融的做法，正是中国在世界范围内由先进的汉唐演变为落后的明清的主要原因。”还没有看到正文，我就被这冷静犀利的文风所吸引，拿起笔频频划重点。
 
@@ -107,38 +111,6 @@
 </code></pre>
 <p>2020年1月30日<br>
 写于安康家中</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>https://xupeiziyan.github.io/post/hello-gridea</id>
-        <link href="https://xupeiziyan.github.io/post/hello-gridea">
-        </link>
-        <updated>2018-12-11T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
-<!-- more -->
-<p><a href="https://github.com/getgridea/gridea">Github</a><br>
-<a href="https://gridea.dev/">Gridea 主页</a><br>
-<a href="http://fehey.com/">示例网站</a></p>
-<h2 id="特性">特性👇</h2>
-<p>📝  你可以使用最酷的 <strong>Markdown</strong> 语法，进行快速创作</p>
-<p>🌉  你可以给文章配上精美的封面图和在文章任意位置插入图片</p>
-<p>🏷️  你可以对文章进行标签分组</p>
-<p>📋  你可以自定义菜单，甚至可以创建外部链接菜单</p>
-<p>💻  你可以在 <strong>Windows</strong>，<strong>MacOS</strong> 或 <strong>Linux</strong> 设备上使用此客户端</p>
-<p>🌎  你可以使用 <strong>𝖦𝗂𝗍𝗁𝗎𝖻 𝖯𝖺𝗀𝖾𝗌</strong> 或 <strong>Coding Pages</strong> 向世界展示，未来将支持更多平台</p>
-<p>💬  你可以进行简单的配置，接入 <a href="https://github.com/gitalk/gitalk">Gitalk</a> 或 <a href="https://github.com/SukkaW/DisqusJS">DisqusJS</a> 评论系统</p>
-<p>🇬🇧  你可以使用<strong>中文简体</strong>或<strong>英语</strong></p>
-<p>🌁  你可以任意使用应用内默认主题或任意第三方主题，强大的主题自定义能力</p>
-<p>🖥  你可以自定义源文件夹，利用 OneDrive、百度网盘、iCloud、Dropbox 等进行多设备同步</p>
-<p>🌱 当然 <strong>Gridea</strong> 还很年轻，有很多不足，但请相信，它会不停向前 🏃</p>
-<p>未来，它一定会成为你离不开的伙伴</p>
-<p>尽情发挥你的才华吧！</p>
-<p>😘 Enjoy~</p>
 ]]></content>
     </entry>
 </feed>
