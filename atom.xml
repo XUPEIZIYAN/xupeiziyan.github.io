@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://xupeiziyan.github.io/</id>
-    <title>ziyan&apos;blog</title>
-    <updated>2020-02-11T07:08:54.788Z</updated>
+    <title>Ziyan&apos; Blog</title>
+    <updated>2020-02-11T07:15:47.131Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://xupeiziyan.github.io/"/>
     <link rel="self" href="https://xupeiziyan.github.io/atom.xml"/>
     <subtitle>在寻常的每一天，记录生活</subtitle>
     <logo>https://xupeiziyan.github.io/images/avatar.png</logo>
     <icon>https://xupeiziyan.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2020, ziyan&apos;blog</rights>
+    <rights>All rights reserved 2020, Ziyan&apos; Blog</rights>
     <entry>
         <title type="html"><![CDATA[读书笔记 I 《鼠疫》中的众生相]]></title>
         <id>https://xupeiziyan.github.io/post/test</id>
