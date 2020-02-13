@@ -14,6 +14,7 @@
 
     
 
+<script src='//unpkg.com/valine/dist/Valine.min.js'></script>
   <meta name="description" content="有趣的是，只有当我们独处时，才会更清楚地意识到自己与万物同在。
 
 白天风风火火做各种工作，学各种知识，夜晚就窝在寝室里读《空谷幽兰》，想来也觉得自己好矛盾。一方面期冀着功成名就的日子，另一方面却向往着归田园居的生活。踌躇满志的时候，觉得肯定..." />
@@ -98,32 +99,6 @@
         </div>
       </div>
 
-      
-        
-          <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-<script type="application/javascript" src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
-
-<div id="gitalk-container"></div>
-
-<script type="application/javascript">
-
-  var gitalk = new Gitalk({
-    clientID: '',
-    clientSecret: '',
-    repo: '',
-    owner: '',
-    admin: [''],
-    id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
-    distractionFreeMode: false  // Facebook-like distraction free mode
-  })
-
-  gitalk.render('gitalk-container')
-
-</script>
-
-        
-
-        
       
 
       
@@ -320,4 +295,13 @@
   </script>
 </body>
 
+<div id="vcomments"></div>
+    <script>
+        new Valine({
+            el: '#vcomments',
+            appId: 'Dmvin974ODEfovQwGdJcYOWp-gzGzoHsz',
+            appKey: 'GmgaffuoLWRX6jDlD91qx8BR'
+        })
+    </script>
 </html>
+

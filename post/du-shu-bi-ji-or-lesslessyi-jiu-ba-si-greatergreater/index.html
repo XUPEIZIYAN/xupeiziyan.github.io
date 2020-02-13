@@ -14,6 +14,7 @@
 
     
 
+<script src='//unpkg.com/valine/dist/Valine.min.js'></script>
   <meta name="description" content="我们是活于盲从附和，寂寞荒凉岁月的人……
 
 最近周一至周五实习，周六写论文，周天去陆家嘴测数据。天已入伏，早晨六点起，七点走，八点到，一直测到太阳落山。数据十分钟采集一次，准备三分钟，间隔七分钟。太阳底下站一天，五内俱焚，怒火中烧，幸好可以..." />
@@ -115,32 +116,6 @@
         </div>
       </div>
 
-      
-        
-          <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-<script type="application/javascript" src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
-
-<div id="gitalk-container"></div>
-
-<script type="application/javascript">
-
-  var gitalk = new Gitalk({
-    clientID: '',
-    clientSecret: '',
-    repo: '',
-    owner: '',
-    admin: [''],
-    id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
-    distractionFreeMode: false  // Facebook-like distraction free mode
-  })
-
-  gitalk.render('gitalk-container')
-
-</script>
-
-        
-
-        
       
 
       
@@ -337,4 +312,13 @@
   </script>
 </body>
 
+<div id="vcomments"></div>
+    <script>
+        new Valine({
+            el: '#vcomments',
+            appId: 'Dmvin974ODEfovQwGdJcYOWp-gzGzoHsz',
+            appKey: 'GmgaffuoLWRX6jDlD91qx8BR'
+        })
+    </script>
 </html>
+

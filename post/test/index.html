@@ -14,6 +14,7 @@
 
     
 
+<script src='//unpkg.com/valine/dist/Valine.min.js'></script>
   <meta name="description" content="习惯于绝望的处境，是比绝望的处境本身更大的不幸。
 
 从大年初一算起，今天已经是不出门的第六天了。每日都是睡觉，起床，做饭，吃饭，学习，娱乐，喝水、上厕所，剩下的时间就在客厅、餐厅里踱来踱去。白天阳光很好，向南的窗户都笼罩在暖意之中，夜里一排..." />
@@ -98,32 +99,6 @@
         </div>
       </div>
 
-      
-        
-          <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-<script type="application/javascript" src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
-
-<div id="gitalk-container"></div>
-
-<script type="application/javascript">
-
-  var gitalk = new Gitalk({
-    clientID: '',
-    clientSecret: '',
-    repo: '',
-    owner: '',
-    admin: [''],
-    id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
-    distractionFreeMode: false  // Facebook-like distraction free mode
-  })
-
-  gitalk.render('gitalk-container')
-
-</script>
-
-        
-
-        
       
 
       
@@ -320,4 +295,13 @@
   </script>
 </body>
 
+<div id="vcomments"></div>
+    <script>
+        new Valine({
+            el: '#vcomments',
+            appId: 'Dmvin974ODEfovQwGdJcYOWp-gzGzoHsz',
+            appKey: 'GmgaffuoLWRX6jDlD91qx8BR'
+        })
+    </script>
 </html>
+

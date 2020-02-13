@@ -14,6 +14,7 @@
 
     
 
+<script src='//unpkg.com/valine/dist/Valine.min.js'></script>
   <meta name="description" content="曾经有朋友问我，你的理想是什么，我说不知道，他又问，那你这辈子最想做什么，我说，“读万卷书，行万里路”。这个答案，我自己都觉得好抽象，很简单，也很难。
 我不太爱待在家里，也不喜欢平静到一眼看到头的生活，更不愿意把自己陷入人情世故，鸡毛蒜皮的..." />
   <meta property="og:title" content="《北方以北》| 起笔 - 寻常.籽言">
@@ -163,32 +164,6 @@
         </div>
       </div>
 
-      
-        
-          <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-<script type="application/javascript" src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
-
-<div id="gitalk-container"></div>
-
-<script type="application/javascript">
-
-  var gitalk = new Gitalk({
-    clientID: '',
-    clientSecret: '',
-    repo: '',
-    owner: '',
-    admin: [''],
-    id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
-    distractionFreeMode: false  // Facebook-like distraction free mode
-  })
-
-  gitalk.render('gitalk-container')
-
-</script>
-
-        
-
-        
       
 
       
@@ -385,4 +360,13 @@
   </script>
 </body>
 
+<div id="vcomments"></div>
+    <script>
+        new Valine({
+            el: '#vcomments',
+            appId: 'Dmvin974ODEfovQwGdJcYOWp-gzGzoHsz',
+            appKey: 'GmgaffuoLWRX6jDlD91qx8BR'
+        })
+    </script>
 </html>
+

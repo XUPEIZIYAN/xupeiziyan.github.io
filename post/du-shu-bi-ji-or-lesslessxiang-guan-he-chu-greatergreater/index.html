@@ -14,6 +14,7 @@
 
     
 
+<script src='//unpkg.com/valine/dist/Valine.min.js'></script>
   <meta name="description" content="我不记得自己是什么时候买了这本《乡关何处》，也不记得从哪里得知此书，总之以前看过，又在书架上晾了这许久。最近难得闲下来，就随手取来读，一读又停不下来，就干脆读完。有些书是只能一口气看完的，不然会憋出病。
 柴静在序言中写道：“这个年头处处都是..." />
   <meta property="og:title" content="读书笔记 | 《乡关何处》 - 寻常.籽言">
@@ -94,32 +95,6 @@
         </div>
       </div>
 
-      
-        
-          <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-<script type="application/javascript" src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
-
-<div id="gitalk-container"></div>
-
-<script type="application/javascript">
-
-  var gitalk = new Gitalk({
-    clientID: '',
-    clientSecret: '',
-    repo: '',
-    owner: '',
-    admin: [''],
-    id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
-    distractionFreeMode: false  // Facebook-like distraction free mode
-  })
-
-  gitalk.render('gitalk-container')
-
-</script>
-
-        
-
-        
       
 
       
@@ -316,4 +291,13 @@
   </script>
 </body>
 
+<div id="vcomments"></div>
+    <script>
+        new Valine({
+            el: '#vcomments',
+            appId: 'Dmvin974ODEfovQwGdJcYOWp-gzGzoHsz',
+            appKey: 'GmgaffuoLWRX6jDlD91qx8BR'
+        })
+    </script>
 </html>
+
